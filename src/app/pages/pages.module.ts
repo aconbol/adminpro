@@ -18,6 +18,8 @@ import { DashboardComponent } from './dashboard/dashboard.component';
 import { ProgressComponent } from './progress/progress.component';
 import { Graficas1Component } from './graficas1/graficas1.component';
 import { NopagefoundComponent } from '../shared/nopagefound/nopagefound.component';
+import { PromesasComponent } from './promesas/promesas.component';
+import { RxjsComponent } from './rxjs/rxjs.component';
 
 // Temporal
 import { IncrementadorComponent } from '../components/incrementador/incrementador.component';
@@ -34,7 +36,9 @@ import { AccountSettingsComponent } from './account-settings/account-settings.co
         NopagefoundComponent,
         IncrementadorComponent,
         GraficoDonaComponent,
-        AccountSettingsComponent
+        AccountSettingsComponent,
+        PromesasComponent,
+        RxjsComponent
     ],
     exports: [
         DashboardComponent,
